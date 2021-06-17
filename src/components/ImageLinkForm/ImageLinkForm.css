@@ -1,0 +1,61 @@
+.linkMainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.linkContainer {
+    display: flex;
+    height: 7em;
+}
+
+.link {
+    border: 2px rgba(78, 95, 155, 0.2);
+    background-color: #FFF;
+    padding: 1em;
+    margin: 1em;
+    align-self: center;
+    width: 40em;
+    transition: all 0.5s;
+}
+
+.linkInput:hover {
+    background-color: rgba(112, 142, 240, 0.2);
+}
+
+.link:focus {
+    outline: none;
+}
+
+.linkButton {
+    user-select: none;
+    width: 6em;
+    border-radius: 8px;
+    background-color: rgba(78, 95, 155, 0.2);
+}
+
+.linkButton:hover {
+    transform:  scale(1.07);
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none;
+}
+
+.linkInput {
+    text-align: center;
+    background-color: transparent
+}
+
+.shadow {
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+@media screen and (max-width: 900px) {
+    .linkContainer {
+      width: 100%;
+    }
+}

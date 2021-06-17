@@ -1,0 +1,59 @@
+.signIn {
+    border: 2px rgba(78, 95, 155, 0.2);
+    background-color: #FFF;
+    padding: 1em;
+    margin: 1em;
+    align-self: center;
+    width: 20em;
+    transition: all 0.5s;
+}
+
+.signInInput:hover {
+    background-color: rgba(112, 142, 240, 0.2);
+}
+
+.signIn:focus {
+    outline: none;
+}
+
+.signInButton {
+    user-select: none;
+    width: fit-content;
+    border-radius: 8px;
+    background-color: rgba(78, 95, 155, 0.2);
+}
+
+.signInButton:hover {
+    transform:  scale(1.07);
+}
+
+.error {
+    color: rgba(78, 95, 155, 0.8);
+}
+
+
+.signInButton:active {
+    transform: translateY(4px);
+  }
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none;
+}
+
+.signInInput {
+    text-align: center;
+    background-color: transparent;
+    margin-top: 0.25em;
+}
+
+.fontXBigger {
+    font-size: 30px;
+    margin-bottom: 1px;
+}
+
+.register {
+    background-color: transparent;
+    font-weight: bold;
+    margin-top: 1px;
+}

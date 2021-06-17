@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Courier New', 'Courier New', Courier, monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /*background: linear-gradient(to right, #FF5EDF, #04C8DE); */
+  background: linear-gradient(to right, #FF5EDF, #04C8DE);
+}
+
+button, a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  user-select: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 12px;
+  }
+}
