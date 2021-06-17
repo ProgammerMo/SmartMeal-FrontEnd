@@ -7,6 +7,7 @@ import Register from './components/Register/Register';
 import MealList from './components/MealList/MealList';
 import ImageLinkForm from './components/ImageLinkForm/ImageLinkForm';
 import React, { Fragment } from 'react';
+import BrowserRouter from 'react-router-dom/BrowserRouter'
 
 const particleSettings = {
   polygon: {
@@ -94,24 +95,27 @@ class App extends React.Component {
 
   render() {
       return (
-        <div className="App">
-          <Particles params={{ particleSettings }} className='particles' />
-          <Navigation onChangeRoute={this.onChangeRoute} isSignedIn={ this.state.isSignedIn }/>
-          { this.state.route === 'signin' 
-            ? 
-              <SignIn loadUser={this.loadUser} onChangeRoute={this.onChangeRoute} />
-            : 
-              this.state.route === 'register'
-              ?
-                <Register loadUser={this.loadUser} onChangeRoute={this.onChangeRoute} />
-              :
-              <Fragment>
-                  <Rank user={ this.state.user } />
-                  <ImageLinkForm onInputChange={this.onInputChange} onSubmit={this.onSubmit}/>
-                  { this.state.meals && <MealList meals={this.state.meals} />}
-              </Fragment>
-          }
-        </div>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
+          <div className="App">
+            <Particles params={{ particleSettings }} className='particles' />
+            <Navigation onChangeRoute={this.onChangeRoute} isSignedIn={ this.state.isSignedIn }/>
+            { this.state.route === 'signin' 
+              ? 
+                <SignIn loadUser={this.loadUser} onChangeRoute={this.onChangeRoute} />
+              : 
+                this.state.route === 'register'
+                ?
+                  <Register loadUser={this.loadUser} onChangeRoute={this.onChangeRoute} />
+                :
+                <Fragment>
+                    <Rank user={ this.state.user } />
+                    <ImageLinkForm onInputChange={this.onInputChange} onSubmit={this.onSubmit}/>
+                    { this.state.meals && <MealList meals={this.state.meals} />}
+                </Fragment>
+            }
+          </div>
+        </BrowserRouter>
+        
       );
     }
   } 
