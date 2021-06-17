@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/smartmeal-frontend/static/css/main.943b5cda.chunk.css",
-    "main.js": "/smartmeal-frontend/static/js/main.8d6000b0.chunk.js",
-    "main.js.map": "/smartmeal-frontend/static/js/main.8d6000b0.chunk.js.map",
-    "runtime-main.js": "/smartmeal-frontend/static/js/runtime-main.27867e84.js",
-    "runtime-main.js.map": "/smartmeal-frontend/static/js/runtime-main.27867e84.js.map",
-    "static/js/2.9d8515ed.chunk.js": "/smartmeal-frontend/static/js/2.9d8515ed.chunk.js",
-    "static/js/2.9d8515ed.chunk.js.map": "/smartmeal-frontend/static/js/2.9d8515ed.chunk.js.map",
-    "static/js/3.824c9cf6.chunk.js": "/smartmeal-frontend/static/js/3.824c9cf6.chunk.js",
-    "static/js/3.824c9cf6.chunk.js.map": "/smartmeal-frontend/static/js/3.824c9cf6.chunk.js.map",
-    "index.html": "/smartmeal-frontend/index.html",
-    "static/css/main.943b5cda.chunk.css.map": "/smartmeal-frontend/static/css/main.943b5cda.chunk.css.map",
-    "static/js/2.9d8515ed.chunk.js.LICENSE.txt": "/smartmeal-frontend/static/js/2.9d8515ed.chunk.js.LICENSE.txt"
+    "main.css": "/SmartMeal-FrontEnd/static/css/main.943b5cda.chunk.css",
+    "main.js": "/SmartMeal-FrontEnd/static/js/main.8d6000b0.chunk.js",
+    "main.js.map": "/SmartMeal-FrontEnd/static/js/main.8d6000b0.chunk.js.map",
+    "runtime-main.js": "/SmartMeal-FrontEnd/static/js/runtime-main.42dcd0e9.js",
+    "runtime-main.js.map": "/SmartMeal-FrontEnd/static/js/runtime-main.42dcd0e9.js.map",
+    "static/js/2.9d8515ed.chunk.js": "/SmartMeal-FrontEnd/static/js/2.9d8515ed.chunk.js",
+    "static/js/2.9d8515ed.chunk.js.map": "/SmartMeal-FrontEnd/static/js/2.9d8515ed.chunk.js.map",
+    "static/js/3.824c9cf6.chunk.js": "/SmartMeal-FrontEnd/static/js/3.824c9cf6.chunk.js",
+    "static/js/3.824c9cf6.chunk.js.map": "/SmartMeal-FrontEnd/static/js/3.824c9cf6.chunk.js.map",
+    "index.html": "/SmartMeal-FrontEnd/index.html",
+    "static/css/main.943b5cda.chunk.css.map": "/SmartMeal-FrontEnd/static/css/main.943b5cda.chunk.css.map",
+    "static/js/2.9d8515ed.chunk.js.LICENSE.txt": "/SmartMeal-FrontEnd/static/js/2.9d8515ed.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.27867e84.js",
+    "static/js/runtime-main.42dcd0e9.js",
     "static/js/2.9d8515ed.chunk.js",
     "static/css/main.943b5cda.chunk.css",
     "static/js/main.8d6000b0.chunk.js"
